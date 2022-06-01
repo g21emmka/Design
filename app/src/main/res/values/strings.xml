@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">Design</string>
+    <string name="app_name">JobbaPå</string>
+
+    <string name="advertisement_text">
+        Företag: EventProffsenDeluxe
+        \nBransch: Event
+        \nKommun: Skövde
+        \nPubliceringsdatum: 2022-05-20
+    </string>
+
+    <string name="advertisement_text2">
+        Företag: Solstrålarna AB
+        \nBransch: Försäljning/marknadsföring
+        \nKommun: Malmö
+        \nPubliceringsdatum: 2022-05-12
+    </string>
+
+    <string name="advertisement_text3">
+        Företag: Trädgårdsfixarna
+        \nBransch: Trädgård
+        \nKommun: Huddinge
+        \nPubliceringsdatum: 2022-04-10
+    </string>
 </resources>
