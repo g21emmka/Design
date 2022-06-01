@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">JobbaPå</string>
+    <string name="app_name">JobbaPå AB</string>
 
     <string name="advertisement_text">
-        Företag: EventProffsenDeluxe
+        Företag: EventProffsenDeluxe AB
         \nBransch: Event
-        \nKommun: Skövde
+        \nKommun: Stockholm
         \nPubliceringsdatum: 2022-05-20
     </string>
 
@@ -18,7 +18,17 @@
     <string name="advertisement_text3">
         Företag: Trädgårdsfixarna
         \nBransch: Trädgård
-        \nKommun: Huddinge
+        \nKommun: Skövde
         \nPubliceringsdatum: 2022-04-10
     </string>
+
+    <string name="shortinfo_work">
+        Omfattning: Deltid
+        \n Timmar per vecka: 10h
+        \n varaktighet: Tillsvidare
+        \n Anställningsform: Tidsbegränsad anställning
+
+    </string>
+
+
 </resources>

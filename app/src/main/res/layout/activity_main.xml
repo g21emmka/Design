@@ -21,20 +21,57 @@
         android:textColor="@color/black"
         android:textSize="30dp"/>
 
+    <TextView
+        android:id="@+id/search_bar"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:text="Sök efter jobbtitel eller ort "
+        android:textSize="12dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:layout_marginLeft="60dp"
+        android:background="#CCFFFFFF"
+        />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        android:text="Sök"
+        android:textSize="10dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintBottom_toBottomOf="@id/search_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/search_bar"
+        app:layout_constraintTop_toBottomOf="@+id/title"/>
+
+    <Button
+        android:id="@+id/filter"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="Filter"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_bar"
+        />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:layout_marginTop="20dp"
+        android:background="#c5cae9"
         app:cardBackgroundColor="#CCFFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/title">
+        app:layout_constraintTop_toBottomOf="@id/filter">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="135dp">
+            android:layout_height="150dp">
 
             <TextView
                 android:id="@+id/advertisement_title"
@@ -56,6 +93,17 @@
                 android:layout_marginLeft="5dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/advertisement_title" />
+            <TextView
+                android:id="@+id/readmore_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Läs mer.."
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:layout_marginLeft="50dp"
+                app:layout_constraintStart_toEndOf="@id/advertisement_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/advertisement_text" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
@@ -73,7 +121,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="135dp">
+            android:layout_height="150dp">
 
             <TextView
                 android:id="@+id/advertisement_title2"
@@ -96,6 +144,17 @@
                 android:layout_marginLeft="5dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/advertisement_title2"/>
+            <TextView
+                android:id="@+id/readmore_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Läs mer.."
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintStart_toEndOf="@id/advertisement_text2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/advertisement_text2" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
@@ -112,7 +171,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="135dp">
+            android:layout_height="150dp">
 
             <TextView
                 android:id="@+id/advertisement_title3"
@@ -135,6 +194,17 @@
                 android:layout_marginLeft="5dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/advertisement_title3"/>
+            <TextView
+                android:id="@+id/readmore_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Läs mer.."
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:layout_marginLeft="70dp"
+                app:layout_constraintStart_toEndOf="@id/advertisement_text3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/advertisement_text3" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
